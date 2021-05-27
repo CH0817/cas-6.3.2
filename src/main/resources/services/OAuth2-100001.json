@@ -1,0 +1,12 @@
+{
+  "@class": "org.apereo.cas.support.oauth.services.OAuthRegisteredService",
+  "clientId": "cas-oauth2-client",
+  "clientSecret": "1",
+  "serviceId": "^(https|http|imaps)://.*",
+  "name": "cas-oauth2-client",
+  "id": 100,
+  "jsonFormat": true,
+  "generateRefreshToken": true,
+  "renewRefreshToken": true,
+  "bypassApprovalPrompt": true
+}
